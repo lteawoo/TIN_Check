@@ -6,6 +6,7 @@ public class BlockVO {
 	private String type;
 	private Integer[] length;
 	private String[] charArr;
+	private boolean chksum;
 	
 	public Integer getCountryNo() {
 		return countryNo;
@@ -36,5 +37,11 @@ public class BlockVO {
 	}
 	public void setCharArr(String[] charArr) {
 		this.charArr = charArr;
+	}
+	public boolean isChksum() {
+		return chksum;
+	}
+	public void setChksum(boolean chksum) {
+		this.chksum = chksum;
 	}
 }

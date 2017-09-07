@@ -4,35 +4,40 @@
 		"no"			: 1,
 		"type"			: "Alpha",
 		"length"		: [1],
-		"charArr"		: []
+		"charArr"		: [],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 1,
 		"no"			: 2,
 		"type"			: "All",
 		"length"		: [1],
-		"charArr"		: ["-"]
+		"charArr"		: ["-"],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 1,
 		"no"			: 3,
 		"type"			: "Number",
 		"length"		: [1, 6],
-		"charArr"		: []
+		"charArr"		: [],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 1,
 		"no"			: 4,
 		"type"			: "All",
 		"length"		: [1],
-		"charArr"		: ["-"]
+		"charArr"		: ["-"],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 1,
 		"no"			: 5,
 		"type"			: "Alpha",
 		"length"		: [1],
-		"charArr"		: []
+		"charArr"		: [],
+		"chksum"		: false
 	},
 	
 	
@@ -41,20 +46,31 @@
 		"no"			: 1,
 		"type"			: "YYMMDD",
 		"length"		: [1, 6],
-		"charArr"		: []
+		"charArr"		: [],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 2,
 		"no"			: 2,
 		"type"			: "All",
 		"length"		: [1],
-		"charArr"		: ["-"]
+		"charArr"		: ["-"],
+		"chksum"		: false
 	},
 	{
 		"countryNo"		: 2,
 		"no"			: 3,
 		"type"			: "Number",
-		"length"		: [1, 7],
-		"charArr"		: []
+		"length"		: [1, 6],
+		"charArr"		: [],
+		"chksum"		: false
+	},
+	{
+		"countryNo"		: 2,
+		"no"			: 4,
+		"type"			: "Number",
+		"length"		: [1],
+		"charArr"		: [],
+		"chksum"		: true
 	}
 ]
